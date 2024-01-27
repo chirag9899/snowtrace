@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        'gradient-colors': 'linear-gradient(to left, rgb(0, 0, 0), rgb(100, 116, 139), rgb(148, 163, 184))',
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 };
