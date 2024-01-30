@@ -1,24 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## snowTrace Gas Price Tracker
 
-First, run the development server:
+# Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a web scraping automation tool built using EasyCron for scheduling, Firebase as the database, and Next.js as the full-stack framework. The application is designed to handle the automated scraping of data from specified sources, storing the results in Firebase, and providing a user-friendly interface using Next.js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Automated Scraping: Utilizes EasyCron cron jobs to automate the scraping process at specified intervals.
+Firebase Database: Stores the scraped data in Firebase, providing a scalable and real-time database solution.
+Next.js Frontend: Offers a dynamic and responsive user interface for interacting with the scraped data.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Installation 
+Clone the repository: ``` git clone https://github.com/your-username/your-repository.git ```
+Navigate to the project directory: ``` cd snowtrace ```
+Install dependencies: ``` npm install ```
+start app: ``` npm run dev ```
+
 
 ## Learn More
 
