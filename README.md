@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## snowTrace Gas Price Tracker
 
 # Description
@@ -13,10 +11,14 @@ Firebase Database: Stores the scraped data in Firebase, providing a scalable and
 Next.js Frontend: Offers a dynamic and responsive user interface for interacting with the scraped data.
 
 # Installation 
-Clone the repository: ``` git clone https://github.com/your-username/your-repository.git ```
-Navigate to the project directory: ``` cd snowtrace ```
-Install dependencies: ``` npm install ```
-start app: ``` npm run dev ```
+Clone the repository: ``` git clone https://github.com/your-username/your-repository.git 
+```
+Navigate to the project directory: ``` cd snowtrace
+```
+Install dependencies: ``` npm install 
+```
+start app: ``` npm run dev
+```
 
 
 ## Learn More
